@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/airCnB/static/css/main.ac788699.chunk.css",
+    "main.js": "/airCnB/static/js/main.8ca133f8.chunk.js",
+    "main.js.map": "/airCnB/static/js/main.8ca133f8.chunk.js.map",
+    "runtime-main.js": "/airCnB/static/js/runtime-main.402fe83d.js",
+    "runtime-main.js.map": "/airCnB/static/js/runtime-main.402fe83d.js.map",
+    "static/css/2.06382735.chunk.css": "/airCnB/static/css/2.06382735.chunk.css",
+    "static/js/2.e6f8b627.chunk.js": "/airCnB/static/js/2.e6f8b627.chunk.js",
+    "static/js/2.e6f8b627.chunk.js.map": "/airCnB/static/js/2.e6f8b627.chunk.js.map",
+    "static/js/3.d5729999.chunk.js": "/airCnB/static/js/3.d5729999.chunk.js",
+    "static/js/3.d5729999.chunk.js.map": "/airCnB/static/js/3.d5729999.chunk.js.map",
+    "index.html": "/airCnB/index.html",
+    "static/css/2.06382735.chunk.css.map": "/airCnB/static/css/2.06382735.chunk.css.map",
+    "static/css/main.ac788699.chunk.css.map": "/airCnB/static/css/main.ac788699.chunk.css.map",
+    "static/js/2.e6f8b627.chunk.js.LICENSE.txt": "/airCnB/static/js/2.e6f8b627.chunk.js.LICENSE.txt",
+    "static/media/card-logo.bbd80c36.png": "/airCnB/static/media/card-logo.bbd80c36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.402fe83d.js",
+    "static/css/2.06382735.chunk.css",
+    "static/js/2.e6f8b627.chunk.js",
+    "static/css/main.ac788699.chunk.css",
+    "static/js/main.8ca133f8.chunk.js"
+  ]
+}
