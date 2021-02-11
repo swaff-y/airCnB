@@ -1,0 +1,226 @@
+.reservation {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.reservation .primary-header div, .reservation .secondary-header div {
+  font-size: 14px;
+  color: grey;
+}
+
+ .reservation .secondary-header div {
+  padding-bottom: 45px;
+  margin-bottom: 45px;
+  border-bottom: 1px solid lightgrey;
+ }
+
+.reservation .description {
+  padding-bottom: 45px;
+}
+
+.reservation ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reservation .image-gallery {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px 0 35px;
+}
+
+.reservation .image-gallery li {
+  max-width: 50%;
+  overflow:hidden;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+  vertical-align: bottom;
+}
+
+.reservation .amenities {
+  padding-bottom: 45px;
+  margin-bottom: 45px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.reservation .amenities h4, .reservation .map h4 {
+  margin-bottom: 25px;
+}
+.reservation .amenities li {
+  width: 50%;
+}
+
+.reservation .amenities div {
+  margin-bottom: 10px;
+}
+
+.reservation ul > .left {
+  margin-right: 50px;
+  flex-grow: 1;
+}
+
+.reservation ul > li .right {
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+}
+
+.billing .reserve {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position:relative;
+}
+
+.billing > div:first-child {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.billing > div:first-child span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.billing .reserve > span {
+  display: block;
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+  padding: 5px 25px;
+  background-color: lightgrey;
+}
+
+.date-range {
+  display: flex;
+}
+
+.guests {
+  padding:15px;
+  border-top: 1px solid lightgrey;
+}
+
+.guests .counter {
+  float: right;
+  margin-top: -20px;
+}
+
+.guests .counter span {
+  display:inline-block;
+  width: 35px;
+  height:34px;
+  text-align:center;
+  border-radius: 500px;
+  border: 1px solid lightgrey;
+  font-size: 22px;
+  margin: 10px 3px;
+  cursor: pointer;
+}
+
+.guests .counter span:hover {
+  background-color: purple;
+  color: white;
+}
+
+.date-range .date {
+  padding:15px;
+  width:150px;
+}
+
+.date-range .left {
+  border-right: 1px solid lightgrey;
+}
+
+.date-range .date div:first-child, .guests div:first-child {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.date-range.floating {
+  margin-right: 10px;
+  float: right;
+  border-radius: 5px;
+  border: 1px solid lightgrey
+}
+
+.calendar.floating {
+  position: absolute;
+  top: -1px;
+  right: -27px;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  border-top-right-radius:0px;
+}
+
+.floating.header {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.floating.header div:last-child{
+  font-size: 14px;
+  font-weight: 400;
+  color:grey;
+}
+
+.calendar.action {
+  text-align: right;
+  padding: 25px 15px 10px;
+  border-top: 1px solid lightgrey;
+}
+
+.calendar.action span {
+  margin: 0 5px;
+}
+
+.bill > div:first-child {
+  margin-top: 10px;
+}
+
+.bill > div > span {
+  display: block;
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+  padding: 0 25px;
+  margin-bottom: 15px;
+}
+
+.bill-table {
+  margin-top: 25px;
+}
+
+.bill-table div, .bill-total {
+  display: flex;
+  margin-top: 3px;
+  color: grey;
+}
+
+.bill-table span:first-child, .bill-total span:first-child {
+  flex-grow: 1;
+}
+
+.bill-total {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid lightgrey;
+}
+
+.map-wrapper {
+  position: relative;
+  width:100%;
+  height:400px;
+}

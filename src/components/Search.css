@@ -1,0 +1,237 @@
+.hero {
+  height: calc(100vh - 115px);
+  background-image: url('https://news.airbnb.com/wp-content/uploads/sites/4/2020/04/Airbnb_Peru_Skylodge.jpg');
+  background-repeat: no-repeat;
+}
+
+.hero-search {
+  position: relative;
+  padding-top: 20px;
+  width:720px;
+  margin: 0 auto;
+}
+
+.hero-heading{
+  margin-top: 100px !important;
+}
+
+.hero-heading h1 {
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 80px;
+  color: white;
+  text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+.hero-heading span {
+  font-size:18px;
+  background-color: white;
+  margin-left:7px;
+  padding: 3px 20px;
+  margin-top: 5px;
+  display:inline-block;
+  border-radius: 5px;
+}
+
+.search-wrapper {
+  display:flex;
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.search-wrapper .search-item {
+  padding: 8px 30px;
+  border-radius:50px;
+  cursor: pointer;
+}
+
+.search-wrapper .search-item:hover {
+  background-color: lightgrey;
+}
+
+.search-wrapper .search-item > input {
+  border: none;
+  background-color: rgba(0,0,0,0);
+}
+
+.search-wrapper .search-item > input:focus, .search-button:focus {
+  outline: none;
+}
+
+.search-item.dates {
+  width: 200px;
+}
+
+.search-item > div:first-child {
+  font-size:14px;
+  font-weight: 600;
+}
+
+.search-calendar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px rgba(0,0,0,0.5);
+  margin-top: 15px;
+  border: 1px solid lightgrey;
+}
+
+.search-button {
+  padding: 12px 17px;
+  margin: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: pink;
+}
+
+.search-button:hover {
+  background-color: purple;
+}
+
+.search-result {
+  display: flex;
+  margin-top: 64px;
+}
+
+.search-result > div {
+  flex-basis: 50%;
+}
+
+.search-result > div:first-child {
+  padding: 35px;
+}
+
+.search-map {
+  position: fixed;
+  width: 100%;
+  height:100%;
+}
+
+.search-list .list-item {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+  padding: 35px 0;
+}
+
+.search-list .list-item > div {
+  flex-basis: 50%;
+}
+
+.list-item .list-image {
+  height: 230px;
+  overflow:hidden;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.list-item .list-image img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.list-details .dash {
+  width: 50px;
+  height: 1px;
+  border-top: 1px solid lightgrey;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.list-details div div:first-child, .list-details div div:nth-of-type(4) {
+  color: grey;
+  font-size: 14px;
+}
+
+.list-details div div:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.list-item .list-details {
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.search-result .pagination {
+  margin: 15px 0;
+}
+
+.search-result .search-filter {
+  display: flex;
+  margin-top: 25px;
+}
+
+.search-filter .filter-button {
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  padding: 5px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-filter .type-filter, .search-filter, .price-filter {
+  position: relative;
+}
+
+.search-filter .filter-options {
+  position: absolute;
+  background-color: white;
+  width:130px;
+  border-radius: 10px;
+  overflow:hidden;
+  margin-top: 5px;
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.5);
+  border: 1px solid lightgrey;
+}
+
+.filter-options div {
+  padding: 15px;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.filter-options div:hover {
+  background-color: lightgrey;
+}
+
+.search-trigger {
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  height: 50px;
+  margin-top: 7px;
+  cursor:pointer;
+}
+
+.search-trigger:hover {
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.5);
+}
+
+.search-trigger div {
+  width: 150px;
+}
+
+.search-trigger-button {
+  padding: 8px 13px;
+  border-radius: 50%;
+  border: none;
+  background-color: pink;
+}
+
+.loading {
+  padding: 5px 10px;
+  background-color: lightgrey;
+  color: white;
+  margin: 25px 0;
+  display: inline-block;
+  border-radius: 10px;
+}
