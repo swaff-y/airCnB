@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import '../App.css'
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://air-bnb-replication.herokuapp.com/";
 
 class ReviewForm extends React.Component {
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-const SERVER_BASE_URL = 'http://localhost:3000';
+const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com/';
 
 class Login extends React.Component {
   state = {

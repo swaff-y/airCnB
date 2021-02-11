@@ -4,7 +4,7 @@ import axios from 'axios'
 import './Payment.css'
 import '../authentication/Auth.css'
 
-const SERVER_BASE_URL = 'http://localhost:3000';
+const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com/';
 
 
 class Payment extends React.Component {

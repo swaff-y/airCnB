@@ -6,7 +6,7 @@ import MapContainerShow from '../MapContainerShow';
 import axios from 'axios'
 import Reviews from './Reviews'
 
-const SERVER_BASE_URL = 'http://localhost:3000'
+const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com/'
 
 class Reservation extends React.Component {
   state = {

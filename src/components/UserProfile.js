@@ -4,7 +4,7 @@ import '../App.css';
 import ReservationsProfile from './ReservationsProfile';
 import ReviewForm from './ReviewForm';
 
-const BASE_URL = 'http://localhost:3000'
+const BASE_URL = 'https://air-bnb-replication.herokuapp.com/'
 
 class UserProfile extends React.Component {
 

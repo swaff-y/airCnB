@@ -23,7 +23,7 @@ import '../App.css'
     event.preventDefault();
       axios({
       method: "POST",
-      url:"http://localhost:3000/contact/create",
+      url:"https://air-bnb-replication.herokuapp.com//contact/create",
       data:  this.state,
       withCredentials: true
     }).then((response)=>{
