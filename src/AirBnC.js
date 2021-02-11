@@ -26,7 +26,7 @@ import About from './components/About'
 import SearchResults from './components/SearchResults';
 
 
-const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com/';
+const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com';
 
 class AirBnC extends React.Component {
   state = {

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import '../App.css';
 //add import for selected page
 
-const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com/';
+const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com';
 
 class Confirmation extends React.Component {
 

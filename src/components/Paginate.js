@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 window.React = React;
 
-const BASE_URL = "https://air-bnb-replication.herokuapp.com//";
+const BASE_URL = "https://air-bnb-replication.herokuapp.com/";
 
 class Paginate extends Component {
   // static propTypes = {

@@ -2,7 +2,7 @@ import React from 'react'
 import Calendar from './Calendar'
 import axios from 'axios'
 
-const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com/'
+const SERVER_BASE_URL = 'https://air-bnb-replication.herokuapp.com'
 
 class Billing extends React.Component {
   state = {

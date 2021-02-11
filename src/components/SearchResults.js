@@ -8,7 +8,7 @@ import './Search.css'
 
 
 // const GOOGLE_GEOCODE_API = "https://maps.googleapis.com/maps/api/geocode/json?";
-const BASE_URL = "https://air-bnb-replication.herokuapp.com/";
+const BASE_URL = "https://air-bnb-replication.herokuapp.com";
 const SEARCH_RESULTS_PER_PAGE = 3;
 
 const SearchResults = (props) => {
@@ -170,7 +170,7 @@ const SearchResults = (props) => {
                 }
               </div> : null
             }
-          </div>  
+          </div>
         </div>
         <div className="search-list">
           {
